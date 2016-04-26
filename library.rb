@@ -34,24 +34,4 @@ class Library
     books_titles.sort_by {|x,y| y}
     books_titles.take(3).each {|x,y| puts "\"#{x}\" has been ordered times: #{y}"}
   end
-
-  # def add_author(a_name, bio)
-  #   author = Author.new(a_name, bio)
-  #   @authors << author
-  # end
-  #
-  # def add_book(title, author)
-  #   book = Book.new(title, author)
-  #   @books << book
-  # end
-  #
-  # def add_reader(name, email, city, street, house)
-  #   reader = Reader.new(name, email, city, street, house)
-  #   @readers << reader
-  # end
-  #
-  # def add_order(book, reader, date)
-  #   order = Order.new(book, reader, date)
-  #   @orders << order
-  # end
 end
