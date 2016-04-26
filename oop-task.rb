@@ -22,7 +22,7 @@ puts "The most popular book: "
 library.the_most_popular_book
 puts ""
 
-puts "People who ordered one of the three most popular books"
+puts "The Amount of people who ordered three popular books"
 library.how_many_people_ordered_one_of_the_three_most_popular_books
 puts ""
 

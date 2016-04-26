@@ -17,21 +17,21 @@ class Library
     orders = @orders.map {|x| x.reader.name}
     readers_names = Hash.new(0)
     orders.each{ |a| readers_names[a] += 1 }
-    often_reader = readers_names.each { |x, y| puts x if y == readers_names.values.max }
+    often_reader = readers_names.group_by {|x, y| puts x if y == readers_names.values.max }
   end
 
   def the_most_popular_book
     orders = @orders.map {|x| x.book.title}
     books_titles = Hash.new(0)
     orders.each{ |a| books_titles[a] += 1 }
-    most_popular_book = books_titles.each { |x, y| puts "\"#{x}\"" if y == books_titles.values.max }
+    most_popular_book = books_titles.group_by {|x, y| puts "\"#{x}\"" if y == books_titles.values.max }
   end
 
   def how_many_people_ordered_one_of_the_three_most_popular_books
     orders = @orders.map {|x| x.book.title}
     books_titles = Hash.new(0)
     orders.map { |a| books_titles[a] += 1 }
-    books_titles.sort_by {|x,y| y}
-    books_titles.take(3).each {|x,y| puts "\"#{x}\" has been ordered times: #{y}"}
+    books_titles.group_by {|x,y| "\"#{x}\": #{y}"}
+    puts "#{books_titles.take(3)}"
   end
 end
