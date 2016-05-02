@@ -1,30 +1,30 @@
-require_relative './db'
-require_relative './library'
+require_relative './structure.rb'
+require_relative './library.rb'
 
 puts "Openning file..."
   begin
     library = Marshal.load(File.binread('result.sav'))
   rescue
     puts 'Failed.'
-    library = db
+    library = Library.new
     puts "Loaded default."
   else
     puts "Ok."
   end
 
-puts ""
+puts
 
 puts "Reader who often takes the books: "
-library.who_often_takes_the_books
-puts ""
+library.who_ottb
+puts
 
 puts "The most popular book: "
-library.the_most_popular_book
-puts ""
+library.the_most_pb
+puts
 
-puts "The Amount of people who ordered three popular books"
-library.how_many_people_ordered_one_of_the_three_most_popular_books
-puts ""
+puts "How many people who ordered one of the three popular books: "
+library.how_many_pooottmpb
+puts
 
 puts "All data has been saved to the file!"
   begin
@@ -32,4 +32,4 @@ puts "All data has been saved to the file!"
     puts "Done!"
   end
 
-puts ""
+puts
