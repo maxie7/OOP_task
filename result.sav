@@ -1,4 +1,15 @@
-IS:Library	:
-books0:orders0:readers0:authors0:@_orders{	I""The Art of Happiness":ET[S:
-Order:	bookI""The Art of Happiness";T:readerI"Andrey Andrienko;T:	dateI""01.04.2016";TS;;I""The Art of Happiness";T;I"Pete Petrov;T;I""04.04.2016";TS;;I""The Art of Happiness";T;I"Ivan Ivanov;T;I""11.04.2016";TS;;I""The Art of Happiness";T;I"Andrey Andrienko;T;I""13.04.2016";TS;;I""The Art of Happiness";T;I"Ivan Ivanov;T;I""13.05.2016";TS;;I""The Art of Happiness";T;I"Stan Sidorenko;T;I""25.05.2016";TI"""Everyday Zen: Love and Work";T[S;;I"""Everyday Zen: Love and Work";T;I"Andrey Andrienko;T;I""14.05.2016";TS;;I"""Everyday Zen: Love and Work";T;I"Pete Petrov;T;I""24.05.2016";TS;;I"""Everyday Zen: Love and Work";T;I"Pete Petrov;T;I""29.05.2016";TI""Siddhartha";T[S;;I""Siddhartha";T;I"Stan Sidorenko;T;I""27.05.2016";TS;;I""Siddhartha";T;I"Andrey Andrienko;T;I""01.06.2016";TI""The Way of Zen";T[	S;;I""The Way of Zen";T;I"Andrey Andrienko;T;I""28.05.2016";TS;;I""The Way of Zen";T;I"Ivan Ivanov;T;I""10.06.2016";TS;;I""The Way of Zen";T;I"Stan Sidorenko;T;I""21.06.2016";TS;;I""The Way of Zen";T;I"Andrey Andrienko;T;I""28.06.2016";T:@often_reader[I"Andrey Andrienko;T:@popular_book[@:@count_people[@	@@@@@#@'@@1@;@+@5@?@C@G:@order_books[@
-@@@@@$@(@@2@<@,@6@@@D@H:@people{	I""The Art of Happiness";Ti@!iI""Siddhartha";TiI""The Way of Zen";Ti	
+o:Library:@authors[	S:Author:	nameI"Hermann Hesse:ET:biographyI"7he was a German-Swiss poet, novelist, and painter.;	TS;;I"Dalai Lama XIV;	T;
+I"Cis a practicing member of the Gelug School of Tibetan Buddhism;	TS;;I"Alan W. Watts;	T;
+I":was a British philosopher, writer and speaker, who...;	TS;;I"Charlotte Joko Beck;	T;
+I"#was an American Zen teacher...;	T:@books[	S:	Book:
+titleI"Siddhartha;	T:author@S;;I"The Art of Happiness;	T;@
+S;;I"The Way of Zen;	T;@S;;I" Everyday Zen: Love and Work;	T;@:@readers[	S:Reader
+;I"Ivan Ivanov;	T:
+emailI"i.ivanov@gmail.com;	T:	cityI"New York;	T:streetI"5th Avenue;	T:
+houseI"
+12-21;	TS;
+;I"Pete Petrov;	T;I"p.petrov@gmail.com;	T;I"	Kyiv;	T;I"Khmelnitsky St.;	T;I"
+30-51;	TS;
+;I"Stan Sidorenko;	T;I"s.sidorenko@gmail.com;	T;I"Dnipro;	T;I"Naberezhnaya St.;	T;I"100-41;	TS;
+;I"Andrey Andrienko;	T;I"a.andrienko@gmail.com;	T;I"Dnipro;	T;I"Pravda Blv.;	T;I"234-11;	T:@orders[S:
+Order:	book@:reader@/:	dateI"01.04.2016;	TS;;@;@#;I"04.04.2016;	TS;;@;@;I"11.04.2016;	TS;;@;@/;I"13.04.2016;	TS;;@;@;I"13.05.2016;	TS;;@;@/;I"14.05.2016;	TS;;@;@#;I"24.05.2016;	TS;;@;@);I"25.05.2016;	TS;;@;@);I"27.05.2016;	TS;;@;@/;I"28.05.2016;	TS;;@;@#;I"29.05.2016;	TS;;@;@/;I"01.06.2016;	TS;;@;@;I"10.06.2016;	TS;;@;@);I"21.06.2016;	TS;;@;@/;I"28.06.2016;	T:@people{	I"The Art of Happiness;	TiI" Everyday Zen: Love and Work;	TiI"Siddhartha;	TiI"The Way of Zen;	Ti	:@order_books[@@@@@@@@@@@@@@@:@count_people@5:@ordered_books[@@@@@@@@@@@@@@@
