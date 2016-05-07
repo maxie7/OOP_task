@@ -1,5 +1,7 @@
-require_relative './structure.rb'
-require_relative './db'
+require_relative './book.rb'
+require_relative './author.rb'
+require_relative './order.rb'
+require_relative './reader.rb'
 
 class Library
   include Enumerable
@@ -24,11 +26,6 @@ class Library
 
   # How many people ordered one of the three most popular books
   def how_many_pooottmpb
-    @ordered_books = []
-    @orders.each_index do |element|
-      @ordered_books << @orders[element].book.title
-    end
-    @people = @ordered_books.uniq.inject({}) {|a, e| a.merge( {e => @ordered_books.count(e)} ) }
-    return @people.sort_by{|key, value| value}.reverse.take(3)
+    people = @orders.group_by{|x| x.book}.sort_by{|x,y| -y.length}.to_h.values.flatten.uniq { |order| order.reader }.size
   end
 end

@@ -1,5 +1,8 @@
 require_relative './library.rb'
-require_relative './structure.rb'
+require_relative './author.rb'
+require_relative './book.rb'
+require_relative './order.rb'
+require_relative './reader.rb'
 
 def db
   #authors
