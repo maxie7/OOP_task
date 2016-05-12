@@ -1,11 +1,7 @@
-#### In the terminal do: "ruby oop-task.rb"
-In the prog i used [*Marshal*](http://ruby-doc.org/core-2.3.0/Marshal.html),
-which converts collections of Ruby objects into a byte stream,
-allowing them to be stored outside the currently active script.
+## Used:
+Struct as a data container and Marshal
 
-![Screen1](https://raw.githubusercontent.com/maxie7/ScreensWork/master/OOP-task/oop-task_01.png)
-
-![Screen2](https://raw.githubusercontent.com/maxie7/ScreensWork/master/OOP-task/oop-task_02.png)
+![Screen3](https://raw.githubusercontent.com/maxie7/ScreensWork/master/OOP-task/oop-task_03.png)
 
 ### Tasks
 ### Library
@@ -21,3 +17,7 @@ allowing them to be stored outside the currently active script.
 * How many people ordered one of the three most popular books
 * Save all Library data to file(s)
 * Get all Library data from file(s)
+
+p.s. in "How many people ordered one of the three most popular books"
+   it was displayed three most popular books and the number of people who ordered those(three) books
+   For example, the most pop.book is "The Art Of Happiness" was ordered 6 times
